@@ -1,2 +1,3 @@
-"Šî–{İ’è
+"åŸºæœ¬è¨­å®š
 source ~/.vimrc.basic
+source ~/.vimrc.encoding
