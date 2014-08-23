@@ -18,3 +18,6 @@ augroup END
 if has('vim_starting') && filereadable(g:save_window_file)
   execute 'source' g:save_window_file
 endif
+
+" 使用テーマ
+colorscheme railscasts
