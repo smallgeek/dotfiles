@@ -2,3 +2,8 @@
 " -------------------------------------------------------------------------------------------------
 set encoding=utf-8    " デフォルトエンコーディング
 
+" encoding を utf-8 にするとメニューが文字化けするため、メニュー部分の文字コードを変更
+source $VIMRUNTIME/delmenu.vim
+set langmenu=ja_jp.utf-8
+source $VIMRUNTIME/menu.vim
+
