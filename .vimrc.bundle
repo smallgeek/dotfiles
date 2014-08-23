@@ -1,0 +1,76 @@
+filetype off
+
+if has('vim_starting')
+  set runtimepath+=~/.vim/bundle/neobundle.vim
+  call neobundle#rc(expand('~/.vim/bundle/'))
+endif
+
+
+" 編集
+" ------------------------------------------------------------------------------------------------
+" surround.vim : テキストを囲むテキストを対象に選択・削除・置換
+NeoBundle 'tpope/vim-surround'
+
+" 補完
+" -------------------------------------------------------------------------------------------------
+" autocomlpop.vim : 挿入モードで自動補完をポップアップ表示
+NeoBundle 'AutoComplPop'
+
+" neocomplcache.vim : Vim 補完環境
+NeoBundle 'Shougo/neocomplcache'
+
+" smartword : 単語移動をスマートに
+NeoBundle 'smartword'
+
+" プログラミング
+" -------------------------------------------------------------------------------------------------
+" quickrun.vim : 編集中のファイルを簡単に実行できるプラグイン
+NeoBundle 'thinca/vim-quickrun'
+
+" ソースコード上のメソッド・変数宣言の一覧を表示
+NeoBundle 'taglist.vim'
+
+" エラーをハイライト
+NeoBundle 'errormarker.vim'
+
+" Syntax
+" -------------------------------------------------------------------------------------------------
+" JavaScript
+NeoBundle 'JavaScript-syntax'
+
+" jQuery
+NeoBundle 'jQuery'
+
+" markdown
+NeoBundle 'tpope/vim-markdown'
+
+" Buffer
+" -------------------------------------------------------------------------------------------------
+" NERDTree : ツリー型エクスプローラー
+NeoBundle 'The-NERD-tree'
+
+" vtreeexplorer.vim : ツリー状にファイルやディレクトリの一覧を表示
+NeoBundle 'vtreeexplorer'
+
+" エンコーディング
+" -------------------------------------------------------------------------------------------------
+NeoBundle 'banyan/recognize_charcode.vim'
+
+" ユーティリティー
+" -------------------------------------------------------------------------------------------------
+" vimshell : vim の shell
+NeoBundle 'Shougo/vimshell.git'
+
+" vim-powerline : ステータスライン
+NeoBundle 'Lokaltog/vim-powerline'
+
+" git-vim : Vim から Git を操作する
+NeoBundle 'motemen/git-vim'
+
+" テーマ
+" -------------------------------------------------------------------------------------------------
+NeoBundle 'jpo/vim-railscasts-theme'
+
+
+
+
