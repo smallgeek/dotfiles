@@ -5,4 +5,6 @@ source ~/.vimrc.bundle
 source ~/.vimrc.basic
 source ~/.vimrc.encoding
 source ~/.vimrc.colors
+source ~/.vimrc.apperance
+
 
