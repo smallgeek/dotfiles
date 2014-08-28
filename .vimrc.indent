@@ -1,0 +1,18 @@
+"  インデント
+" -------------------------------------------------------------------------------------------------
+set autoindent       " 自動でインデント
+set smartindent      " 新しい行を開始したときに現在行と同じ量のインデントを追加
+set cindent          " Cプログラムファイルの自動インデントを始める
+
+set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
+
+if has("autocmd")
+ "ファイルタイプの検索を有効にする
+  filetype plugin on
+ "ファイルタイプに合わせたインデントを利用する
+  filetype indent on
+
+  autocmd FileType cs      setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType fs      setlocal sw=2 sts=2 ts=2 et
+  autocmd FileTYpe ts      setlocal sw=4 sts=4 ts=4 et
+endif

@@ -71,6 +71,5 @@ NeoBundle 'motemen/git-vim'
 " -------------------------------------------------------------------------------------------------
 NeoBundle 'jpo/vim-railscasts-theme'
 
-
-
+filetype plugin indent on
 
