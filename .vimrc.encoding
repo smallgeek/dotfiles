@@ -7,3 +7,5 @@ source $VIMRUNTIME/delmenu.vim
 set langmenu=ja_jp.utf-8
 source $VIMRUNTIME/menu.vim
 
+"  デフォルトの改行コードを LF に
+set fileformat=unix
