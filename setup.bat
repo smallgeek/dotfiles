@@ -5,6 +5,7 @@ mklink %USERPROFILE%\.vimrc.bundle %~dp0.vimrc.bundle
 mklink %USERPROFILE%\.vimrc.colors %~dp0.vimrc.colors
 mklink %USERPROFILE%\.vimrc.encoding %~dp0.vimrc.encoding
 mklink %USERPROFILE%\.vimrc.indent %~dp0.vimrc.indent
+mklink %USERPROFILE%\.vimrc.plugins_setting %~dp0.vimrc.plugins_setting
 mklink %USERPROFILE%\.gvimrc %~dp0.gvimrc
 
 If Not Exist %USERPROFILE%\.vim\bundle (

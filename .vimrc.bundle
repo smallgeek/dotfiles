@@ -44,6 +44,12 @@ NeoBundle 'jQuery'
 " markdown
 NeoBundle 'tpope/vim-markdown'
 
+" Zen Coding
+NeoBundle 'emmet-vim'
+
+" Rust
+NeoBundle 'wting/rust.vim'
+
 " Buffer
 " -------------------------------------------------------------------------------------------------
 " NERDTree : ツリー型エクスプローラー

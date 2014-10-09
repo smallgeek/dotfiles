@@ -7,4 +7,5 @@ source ~/.vimrc.encoding
 source ~/.vimrc.colors
 source ~/.vimrc.apperance
 source ~/.vimrc.indent
+source ~/.vimrc.plugins_setting
 
