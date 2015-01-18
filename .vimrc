@@ -3,6 +3,7 @@ source ~/.vimrc.bundle
 
 "基本設定
 source ~/.vimrc.basic
+source ~/.vimrc.editing
 source ~/.vimrc.encoding
 source ~/.vimrc.colors
 source ~/.vimrc.apperance
