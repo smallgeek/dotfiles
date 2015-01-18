@@ -21,3 +21,11 @@ endif
 
 " 使用テーマ
 colorscheme railscasts
+
+"------------------------------------
+"  NERDTree
+"------------------------------------
+" 隠しファイルをデフォルトで表示させる
+let NERDTreeShowHidden = 1
+
+autocmd VimEnter * NERDTree
