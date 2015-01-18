@@ -14,5 +14,8 @@ if has("autocmd")
 
   autocmd FileType cs      setlocal sw=4 sts=4 ts=4 et
   autocmd FileType fs      setlocal sw=2 sts=2 ts=2 et
-  autocmd FileTYpe ts      setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType ts      setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType rs      setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType sc      setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType scala   setlocal sw=4 sts=4 ts=4 et
 endif

@@ -50,6 +50,9 @@ NeoBundle 'emmet-vim'
 " Rust
 NeoBundle 'wting/rust.vim'
 
+" Scala
+NeoBundle 'derekwyatt/vim-scala'
+
 " Buffer
 " -------------------------------------------------------------------------------------------------
 " NERDTree : ツリー型エクスプローラー
