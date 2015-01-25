@@ -22,6 +22,10 @@ endif
 " 使用テーマ
 colorscheme railscasts
 
+" Windows で斜体が見づらいため上書き
+hi Comment guifg=#BC9458 gui=NONE ctermfg=137
+hi Todo    guifg=#BC9458 guibg=NONE gui=NONE ctermfg=94
+
 "------------------------------------
 "  NERDTree
 "------------------------------------
