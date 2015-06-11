@@ -1,8 +1,8 @@
-filetype off
+﻿filetype off
 
 if has('vim_starting')
   set runtimepath+=~/.vim/bundle/neobundle.vim
-  call neobundle#rc(expand('~/.vim/bundle/'))
+  call neobundle#begin(expand('~/.vim/bundle/'))
 endif
 
 
@@ -42,7 +42,9 @@ NeoBundle 'JavaScript-syntax'
 NeoBundle 'jQuery'
 
 " markdown
-NeoBundle 'tpope/vim-markdown'
+" 先に tabular をインストールする必要がある
+NeoBundle 'godlygeek/tabular'
+NeoBundle 'plasticboy/vim-markdown'
 
 " Zen Coding
 NeoBundle 'emmet-vim'
@@ -82,3 +84,6 @@ NeoBundle 'jpo/vim-railscasts-theme'
 
 filetype plugin indent on
 
+if has('vim_starting')
+  call neobundle#end()
+endif
