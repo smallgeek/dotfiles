@@ -33,6 +33,9 @@ NeoBundle 'taglist.vim'
 " エラーをハイライト
 NeoBundle 'errormarker.vim'
 
+" インデントを表示
+NeoBundle 'nathanaelkane/vim-indent-guides'
+
 " Syntax
 " -------------------------------------------------------------------------------------------------
 " JavaScript
