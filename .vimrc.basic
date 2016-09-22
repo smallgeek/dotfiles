@@ -22,6 +22,8 @@ set ttymouse=xterm2
 command! Ev edit $MYVIMRC
 command! Rv source $MYVIMRC
 
+set clipboard=unnamed
+
 set helpfile=$VIMRUNTIME/doc/help.txt
 
 " ファイルタイプ判定を on
